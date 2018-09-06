@@ -1,0 +1,67 @@
+GIT
+  remote: https://github.com/thesecretmaster/se-api
+  revision: 59678146183f27a98cc551e489a3c463a1aafdfb
+  specs:
+    se-api (0.0.0.beta1)
+
+GIT
+  remote: https://gitlab.com/thesecretmaster/ChatX
+  revision: f4f687c2525159bf102ce99d180a82bcf4d35f23
+  specs:
+    chatx (0.0.0.pre.pre3)
+      htmlentities (~> 4.3)
+      mechanize (~> 2.7)
+      nokogiri (~> 1.8)
+      permessage_deflate (~> 0.1)
+      websocket-driver (~> 0.6)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    connection_pool (2.2.2)
+    domain_name (0.5.20180417)
+      unf (>= 0.0.5, < 1.0.0)
+    htmlentities (4.3.4)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    httparty (0.16.2)
+      multi_xml (>= 0.5.2)
+    mechanize (2.7.6)
+      domain_name (~> 0.5, >= 0.5.1)
+      http-cookie (~> 1.0)
+      mime-types (>= 1.17.2)
+      net-http-digest_auth (~> 1.1, >= 1.1.1)
+      net-http-persistent (>= 2.5.2)
+      nokogiri (~> 1.6)
+      ntlm-http (~> 0.1, >= 0.1.1)
+      webrobots (>= 0.0.9, < 0.2)
+    mime-types (3.2.2)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2018.0812)
+    mini_portile2 (2.3.0)
+    multi_xml (0.6.0)
+    net-http-digest_auth (1.4.1)
+    net-http-persistent (3.0.0)
+      connection_pool (~> 2.2)
+    nokogiri (1.8.4)
+      mini_portile2 (~> 2.3.0)
+    ntlm-http (0.1.1)
+    permessage_deflate (0.1.4)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.5)
+    webrobots (0.1.2)
+    websocket-driver (0.7.0)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  chatx!
+  httparty
+  se-api!
+
+BUNDLED WITH
+   1.16.2
