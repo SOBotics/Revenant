@@ -1,0 +1,5 @@
+chatx_username: foo@example.email
+chatx_password: correct_horse_battery_staple
+api_key: hErEiSmYaPiKeY
+rooms:
+  12345: 25 # Room ID: Max nr of questions for that room
